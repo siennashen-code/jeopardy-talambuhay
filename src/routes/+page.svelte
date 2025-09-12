@@ -151,29 +151,30 @@
 	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
 
 	:root {
-		--theme-color: #060ce9;
-		--point-color: goldenrod;
+		--theme-color: #e3645b;
+		--point-color: white;
 		font-family: 'ITC_ Korinna', sans-serif;
-		background-color: black;
+		background-color: #ffddd2;
+		color: #606c38;
 	}
 
 	:global(input) {
 		padding: 0.5rem;
 		font-size: 1.2rem;
 		margin: 1rem;
-		background-color: transparent;
+		background-color: #606c38;
 		border: 3px solid var(--point-color);
 		border-radius: 5px;
-		color: white;
+		color: #ffffffff;
 	}
 
 	:global(input:active, input:focus-visible) {
-		box-shadow: 2px 2px 15px var(--point-color) inset;
 		outline: 0;
 	}
 	:global(button) {
-		background: transparent;
-		border: none;
+		background: #e3645b;
+		border: transparent;
+		border-radius: 5px;
 		color: var(--point-color);
 		cursor: pointer;
 	}
